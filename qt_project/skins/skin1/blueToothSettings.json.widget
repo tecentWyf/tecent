@@ -1,0 +1,136 @@
+{
+    ".id": "root",
+    ".type": "Item",
+    "children": [
+        {
+            ".id": "background",
+            ".type": "Image",
+            "children": [
+                {
+                    ".id": "blueToothList_View",
+                    ".type": "BlueToothView",
+                    "blueToothModel": "`full-bind`blueTooth.model",
+                    "clicked": "blueTooth.selectNetwork",
+                    "refreshDisplay": "blueTooth.refresh",
+                    "geometry": "35,178,819x314"
+                },
+                {
+                    ".id": "ipText_background",
+                    ".type": "Image",
+                    "children": [
+                        {
+                            ".id": "wifistatusTtext",
+                            ".type": "Text",
+                            "color": "#000000",
+                            "fontFamily": "FZLTHJW--GB1-0",
+                            "fontPixelSize": 16,
+                            "text": "`bind`blueTooth.stateInfo",
+                            "geometry": "35,12,220x20"
+                        },
+                        {
+                            ".id": "ipText",
+                            ".type": "Text",
+                            "color": "#000000",
+                            "fontFamily": "FZLTHJW--GB1-0",
+                            "fontPixelSize": 16,
+                            "text": "`bind`blueTooth.IPAddress",
+                            "geometry": "260,12,150x20"
+                        }
+                    ],
+                    "source": "resources/wifiSettings/ipText_background.png",
+                    "geometry": "411,134,443x43"
+                },
+                //{
+                //    ".id": "statusText_background",
+                //    ".type": "Image",
+                //    "children": [
+                //        {
+                //            ".id": "statusText",
+                //            ".type": "Text",
+                //            "color": "#000000",
+                //            "fontFamily": "FZLTHJW--GB1-0",
+                //            "fontPixelSize": 16,
+                //            "text": "`tr`CONNECTED",
+                //            //"geometry": "17,10,75x12"
+                //            "geometry": "6,6,110x20"
+                //        }
+                //    ],
+                //    "source": "resources/wifiSettings/statusText_background.png",
+                //    "geometry": "33,110,130x30"
+                //},
+                //{
+                //    ".id": "offBtn",
+                //    ".type": "Image",
+                //    "children": [
+                //       {
+                //            ".id": "OFF",
+                //            ".type": "Text",
+                //            "color": "#000000",
+                //            "fontFamily": "FZLTHJW--GB1-0",
+                //            "fontPixelSize": 16,
+                //            "text": "`tr`OFF",
+                //            "geometry": "42,12,31x20"
+                //        }
+                //    ],
+                //    "source": "resources/wifiSettings/offBtn_disabled.png",
+                //    "activeSource": "resources/wifiSettings/offBtn_Normal.png",
+                //    "geometry": "534,36,123x48"
+                //},
+                //{
+                //    ".id": "onBtn",
+                //    ".type": "Image",
+                //    "children": [
+                //        {
+                //            ".id": "ON",
+                //            ".type": "Text",
+                //            "color": "#000000",
+                //            "fontFamily": "FZLTHJW--GB1-0",
+                //            "fontPixelSize": 16,
+                //            "text": "`tr`ON",
+                //            "geometry": "46,12,22x20"
+                //        }
+                //    ],
+                //    "source": "resources/wifiSettings/onBtn_disabled.png",
+                //    "activeSource": "resources/wifiSettings/onBtn_Normal.png",
+                //    "geometry": "413,36,121x48"
+                //},
+                {
+                    ".id": "switchBtn",
+                    ".type": "Image",
+                    "enabled": true,
+                    "geometry": "592,59,96x32",
+                    "source": "resources/setting_gps/closeImage.png",
+                    "activeSource": "resources/setting_gps/openImage.png"
+                },
+                //{
+                //    ".id": "wifi_icon",
+                //    ".type": "Image",
+                //    "source": "resources/wifiSettings/wifi_icon.png",
+                //    "geometry": "29,37,42x43"
+                //},
+                {
+                    ".id": "iconText",
+                    ".type": "Text",
+                    "color": "#00295d",
+                    "fontFamily": "FZLTHJW--GB1-0",
+                    "fontPixelSize": 16,
+                    "text": "`tr`BlueTooth",
+                    "geometry": "55,67,110x16"
+                },
+                {
+                    ".id": "statusText",
+                    ".type": "Text",
+                    "color": "#00295d",
+                    "fontFamily": "FZLTHJW--GB1-0",
+                    "fontPixelSize": 16,
+                    "text": "`tr`List",
+                    "geometry": "55,145,210x20"
+                }
+            ],
+            "source": "resources/wifiSettings/background.png",
+            "geometry": "0,0,883x521"
+        }
+    ],
+    "height": 524,
+    "width": 883
+}
